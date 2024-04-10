@@ -1,0 +1,34 @@
+.cuerpo{
+    background-color: black;
+}
+.trabajo-container {
+    padding-top: 50px;
+    background-color: #f11010;
+    color: white;
+    padding-left:50px;
+    margin-bottom: 10px;
+}
+
+.imagen-container {
+    align-items: center;
+    padding-top: 10px;
+    background-color: #f11010;
+    width: 100%;
+}
+.imagen{
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.centered-img {
+    display: block;
+    margin: 0 auto; /* Centrar horizontalmente */
+    max-width: 50%; /* Hacer la imagen un poco más pequeña */
+    height: auto;
+}
