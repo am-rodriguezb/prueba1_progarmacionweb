@@ -3,9 +3,9 @@
     padding-bottom: 30px;
 }
 /* Estilos base para el carrusel */
-.d-block{
-    width: 100%;
-    height: auto; 
+.carousel-item{
+    width:100%;
+    height: 600px; 
     display: flex;
     z-index: 0;
 }
@@ -14,7 +14,7 @@
 @media (max-width: 576px) {
     .carousel-item img {
         /* Ajuste de tamaño para pantallas pequeñas */
-        width: 100%;
+        width: 500px;
         height: auto;
     }
 }
